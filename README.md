@@ -3,6 +3,8 @@ ng-stripe-tutorial
 
 Demo code for AngularJS and Stripe integration tutorial.
 
+[View Demo Online](http://urish.github.io/ng-stripe-tutorial/)
+
 Copyright (C) 2014, Uri Shaked <uri@urish.org>
 
 ### Photo credits
