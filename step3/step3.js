@@ -2,13 +2,13 @@
 
 /* Copyright (C) 2013, 2014, Uri Shaked. License: MIT. */
 
-angular.module('step2App', ['angularPayments'])
+angular.module('step3App', ['angularPayments'])
 
 	.config(function() {
 		window.Stripe.setPublishableKey('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
 	})
 
-	.controller('step2Ctrl', function($scope) {
+	.controller('step3Ctrl', function($scope) {
 		// Stripe Response Handler
 		$scope.stripeCallback = function (code, result) {
 			if (result.error) {
